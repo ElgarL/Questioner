@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Questioner" default="makejar" basedir=".">
+  <target name ="makejar" description="Create a jar for the Questioner project">
+    <jar jarfile="../lib/Questioner.jar" includes="**" basedir="bin">
+	</jar>
+  </target>
+</project>
